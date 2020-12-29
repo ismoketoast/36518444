@@ -3,7 +3,7 @@ import './page1.css';
 
 import { Parallax } from 'react-scroll-parallax';
 
-function Page1() {
+export const Page1 = () => {
   return (
     <div className="App">
     <div className="page-1">
@@ -28,5 +28,3 @@ function Page1() {
   </div>
   );
 }
-
-export default Page1;

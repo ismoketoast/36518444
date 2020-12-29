@@ -1,4 +1,4 @@
-import Page1 from './pages/page1/page1.js';
+import { Page1 } from './pages';
 
 function App() {
   return (
