@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './page1.css';
+import logo from '../assets/logo.svg';
+import './pages.css';
 
 import { Parallax } from 'react-scroll-parallax';
 
