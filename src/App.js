@@ -1,8 +1,11 @@
-import { Page1 } from './pages';
+import { Page1, LandingPage, ArchivePage } from './pages';
 
 function App() {
   return (
-    <Page1 />
+    <>
+      <LandingPage />
+      <ArchivePage />
+    </>
   );
 }
 
