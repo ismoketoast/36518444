@@ -8,6 +8,7 @@ import c13h20n2o2 from '../assets/c13h20n2o2.jpg';
 import crash from '../assets/crash.jpeg';
 import crowd from '../assets/crowd.jpeg';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Parallax } from 'react-scroll-parallax';
 import { VideoFrame } from '.';
 
@@ -18,12 +19,15 @@ export const LandingPage = () => {
         <p>ISMOKETOAST</p>
       </div>
       <div className="search">
+        <input type="text" className="searchinput" placeholder="Search..." name="search"></input>
+        <button type="submit"><FontAwesomeIcon icon="search" className="searchicon" /></button>
       </div>
+      {/* Secret Codes: 1015 620 istDOGS WIP 36518444 */}
       <img src={harbor} alt="harbor" width="500" height="400"></img>
       <Parallax y={[-10, 10]} className="tower">
         <img src={tower} alt="tower" width="310" height="410"></img>
       </Parallax>
-      <Parallax y={[-20, 20]} className="ismoketoast">
+      <Parallax y={[-60, 60]} className="ismoketoast">
         <p>ISMOKETOAST<br/>ISMOKETOAS<br/>ISMOKETOA<br/>ISMOKETO<br/>ISMOKET</p>
       </Parallax>
       <Parallax y={[-10, 10]} className="ipsum top">
