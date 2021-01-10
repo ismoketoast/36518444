@@ -57,35 +57,12 @@ export const LandingPage = () => {
       <Parallax y={[-70, 70]} className="ipsum bottom">
         <p>Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and<br/> to emphasise design elements over content. It's also called placeholder (or filler) text. It's a<br/> helps to outline the visual elements of a document or presentation, eg typography, font, or layout.<br/> by the classical author and philosopher Cicero. Its words and letters have been changed by addition or removal<br/> nonsensical; it's not genuine, correct, or comprehensible Latin<br/> still resembles classical Latin, it actually has no meaning whatsoever. As Cicero's text<br/> K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic</p>
       </Parallax>
-      {/* <div className="ist top">
-        <Parallax y={[-300, 300]}>
-          <p>I</p>
-        </Parallax>
-        <Parallax>
-          <p>S</p>
-        </Parallax>
-        <Parallax y={[300, -300]}>
-          <p>T</p>
-        </Parallax>
-      </div> */}
-      {/* <div className="ist bottom">
-        <Parallax y={[-300, 300]}>
-          <p>I</p>
-        </Parallax>
-        <Parallax>
-          <p>S</p>
-        </Parallax>
-        <Parallax y={[300, -300]}>
-          <p>T</p>
-        </Parallax>
-      </div> */}
       <div className="crowd">
         <Parallax y={[-25, 20]}>
           <img src={crowd} alt="crowd" width="325" height="225"></img>
         </Parallax>
       </div>
-      {/* On the left hand side have I S T parallax into the right spots over the crash picture */}
-      {/* On the left hand side have a rotating 36518444 circle behind some of the assets to bring that side alive more*/}
+      {/* On the upper right hand corner have a rotating 36518444 circle behind the search bar to bring the page alive more*/}
     </div>
   );
 }
