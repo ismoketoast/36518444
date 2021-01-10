@@ -328,3 +328,15 @@ input.searchinput:focus {
   z-index: 0;
 }
 
+/* Fixed Elements */
+.music-control {
+  position: fixed;
+  top: 8px;
+  right: 10px;
+}
+
+.fixed {
+  position: fixed;
+  height: 2vh;
+  z-index: 100;
+}

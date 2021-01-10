@@ -19,7 +19,7 @@ export const LandingPage = () => {
         <p>ISMOKETOAST</p>
       </div>
       <div className="search">
-        <input type="text" className="searchinput" placeholder="Search..." name="search"></input>
+        <input type="text" className="searchinput" placeholder="Search..." name="search" autocomplete="off"></input>
         <button type="submit"><FontAwesomeIcon icon="search" className="searchicon" /></button>
       </div>
       {/* Secret Codes: 1015 620 istDOGS WIP 36518444 */}

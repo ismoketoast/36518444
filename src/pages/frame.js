@@ -12,9 +12,16 @@
  * Static on the rows sometimes (make your own static gif)
  */
 
+import { useState } from 'react';
+
  export const VideoFrame = (props) => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
    return (
-      <div className="vf-container">
+      <div className="vf-container" onClick={handleShow}>
         <div className="vf-info">
           <p className="vf-title">{props.title}</p>
           <p className="vf-date">{props.date}</p>
